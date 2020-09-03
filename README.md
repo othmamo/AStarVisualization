@@ -2,7 +2,7 @@
 Visualization of A star pathfinding algorithm using the Pygame library in Python.</br>
 
 Commands:</br>
-  Mouse Left-click Button:
+  Mouse Left-click Button:</br>
     The first click puts the start node.</br>
     The second click puts the end node.</br>
     The other clicks put obstacles on the grid.</br>

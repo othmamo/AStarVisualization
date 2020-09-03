@@ -116,6 +116,13 @@ def close():
 
 def user_input():
     global start, end
+    if pygame.mouse.get_pressed()[2]:
+        pos = pygame.mouse.get_pos()
+        x=int(pos[0]//size_of_cell)
+        y=int(pos[1]//size_of_cell)
+        if((x,y)!=start and (x,y)!=end):
+            grid[x][y].obstacle=False
+            draw_rect(x,y,(255,255,255))
     if pygame.mouse.get_pressed()[0]:
         pos = pygame.mouse.get_pos()
         x=int(pos[0]//size_of_cell)

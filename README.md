@@ -9,7 +9,7 @@ Commands:</br>
   Space: </br>
     Launch the algorithm.</br>
   BackSpace:</br>
-    Restart.</br>
+    Clean the grid and restart.</br>
 
 Color code:</br>
   Blue: Start and end node.</br>
